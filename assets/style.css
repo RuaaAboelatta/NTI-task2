@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    width: 50%;
+    margin: auto;
+    background-color:#4a5a93;
+    color: white;
+    padding-bottom: 20px;
+}
+.article-top{
+    width: 90%;
+    margin: auto;
+    padding-bottom: 50px;
+    border-bottom: 1px solid white;
+}
+ul{
+    position: relative;
+    width: 100%;
+}
+li{
+    display: inline-block;
+    position: absolute;
+}
+li:first-child{
+    top: 20px;
+    left: 20px;
+}
+li:nth-child(2){
+    top: 20px;
+    left:50%;
+    transform: translate(-50%);
+}
+li:last-child{
+    top: 20px;
+    right: 20px;
+}
+li span{
+    border-left: 2px solid white;
+    padding-left: 5px;
+}
+.article-header{
+    text-align: center;
+}
+h1{
+    font-size: 70px;
+}
+.article-header h2{
+    font-size: 18px;
+}
+.article-header h2 , h1{
+    width: 90%;
+    margin: auto;
+    text-transform: uppercase;
+}
+main{
+    width: 50%;
+    margin:auto ;
+    text-align: center;
+    border: 1px solid #4a5a93;
+    position: relative;
+}
+.bg1{
+    height: 300px;
+    margin: auto;
+    background-image: url(./images/3.png);
+    background-size: cover;
+}
+section{
+    width: 80% ;
+    margin: 20px auto;
+}
+p{
+    text-align: justify;
+    margin-top: 10px;
+}
+.sec2{
+    position: relative;
+    height: 300px;
+}
+.bg2{
+    height: 100%;
+    width: 40%;
+    background-image: url(./images/2.png);
+    background-size: cover;
+    float: left;
+
+}
+.side-text{
+    float: right;
+    width: 55%;
+    padding-top: 5px;
+}
+.title{
+    color: #243257;
+}
+form {
+    width: 50%;
+    margin: 20px auto;
+    text-align: left;
+    border: 1px solid #4a5a93;
+    padding: 50px 20px;
+    position: relative;
+}
+input ,textarea{
+    width: 85%;
+    padding: 10px;
+    margin: 10px auto;
+    display: block;
+}
+label{
+    display: block;
+    margin-left: 55px;
+    font-weight: 600;
+}
+button{
+    padding: 10px 15px;
+    color: white;
+    background-color: #4a5a93;
+    border: 1px solid #4a5a93;
+    border-radius: 5px;
+    position: absolute;
+    right: 75px;
+    bottom: 10px;
+}
+button:hover{
+    background-color: aliceblue;
+    color: #4a5a93;
+    cursor: pointer;
+}
